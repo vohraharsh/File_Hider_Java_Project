@@ -1,0 +1,14 @@
+create database projectone;
+show databases;
+use projectone;
+create table users(id int primary key auto_increment, name varchar(100), email varchar(200) unique);
+desc users;
+create table data(id int primary key auto_increment, name varchar(100), path varchar(255), email varchar(200), bin_data blob);
+desc data;
+select * from users;
+select * from data;
+
+
+Here, 
+
+You Can create your database name. 
